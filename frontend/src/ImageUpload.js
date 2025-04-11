@@ -17,7 +17,7 @@ const ImageUpload = () => {
     formData.append('file', file);
 
     try {
-      const res = await axios.post('http://localhost:8000/predict', formData);
+      const res = await axios.post('https://dog-vs-cats-classifier-backend.onrender.com/predict', formData);
       setPrediction(res.data);
     } catch (err) {
       console.error(err);
