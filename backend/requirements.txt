@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pillow
+numpy
+scikit-learn  # or tensorflow/keras if your model uses them
+tensorflow
+keras

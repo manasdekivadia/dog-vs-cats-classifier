@@ -1,1 +1,0 @@
-# dog-vs-cats-classifier

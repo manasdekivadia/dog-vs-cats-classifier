@@ -1,0 +1,132 @@
+/* Background and layout */
+.app-container {
+    background-image: url('./bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+      
+  
+  /* Glass effect container */
+  .glass-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 400px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  
+  /* Heading */
+  .heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* File input styling */
+  .file-input-wrapper {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .custom-file-button {
+    background-color: white;
+    color: #4c1d95; /* purple-800 */
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s;
+    white-space: nowrap;
+  }
+  
+  .custom-file-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .file-input-hidden {
+    display: none;
+  }
+  
+  .file-name {
+    color: #e0e0e0;
+    font-size: 0.875rem;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  /* Predict button */
+  .predict-button {
+    width: 100%;
+    background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
+    color: #3d0c63;
+    font-weight: bold;
+    padding: 12px 32px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .predict-button:hover {
+    transform: scale(1.05);
+    color: white;
+  }
+  
+  /* Result display */
+  .result-box {
+    font-size: large;
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  .glass-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 400px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .glass-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  }
+  .custom-file-button {
+    background: linear-gradient(90deg, #8ec5fc 0%, #e0c3fc 100%);
+    color: #2e1065;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .custom-file-button:hover {
+    transform: scale(1.05);
+    color: white;
+  }
+  
