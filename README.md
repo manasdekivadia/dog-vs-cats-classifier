@@ -1,14 +1,9 @@
-Here’s a beautiful and professional `README.md` for your Dog vs Cat Classifier project, including a setup guide and details about the CNN model you trained (based on the uploaded notebook):
-
----
-
 # 🐶🐱 Dog vs Cat Image Classifier
 
 A sleek web application that classifies images as either a **dog** or a **cat** using a Convolutional Neural Network (CNN) model.
 
 🔗 **Live Demo**: [dog-vs-cats-classifier.vercel.app](https://dog-vs-cats-classifier.vercel.app/)
-
-![App Screenshot](https://via.placeholder.com/1200x600?text=Dog+vs+Cat+Classifier+Preview) <!-- Optional: Replace with actual screenshot -->
+![image](https://github.com/user-attachments/assets/3da2b786-0e87-430b-96e4-144908f6c574)
 
 ---
 
@@ -111,8 +106,6 @@ dog-vs-cat-classifier/
 │   ├── src/
 │   ├── public/
 │   └── package.json
-│
-└── convolutional_neural_network.ipynb
 ```
 
 ---
@@ -120,7 +113,6 @@ dog-vs-cat-classifier/
 ## ✨ UI Highlights
 
 - 🟣 **Glassmorphism design**
-- 🖤 **Dark mode support**
 - 🔁 **Hover interactions**
 - 📱 **Responsive on all devices**
 
@@ -139,5 +131,3 @@ dog-vs-cat-classifier/
 MIT License - use freely for learning or building upon it!
 
 ---
-
-Would you like me to generate a GitHub-ready version with real screenshots and links for your repo? If you provide the GitHub link, I can include it in the clone section.
