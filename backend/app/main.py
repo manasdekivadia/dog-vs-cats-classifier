@@ -6,12 +6,13 @@ from app.model_utils import predict_image
 
 app = FastAPI()
 
-# Allow requests from your React frontend
+# Enable CORS for both local development and deployed frontend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-    "http://localhost:3000",  # for local dev
-    "https://dog-vs-cats-classifier.vercel.app/"],
+        "http://localhost:3000",  # for local testing
+        "https://dog-vs-cats-classifier.vercel.app"  # ✅ no trailing slash
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -21,4 +22,4 @@ app.add_middleware(
 async def predict(file: UploadFile = File(...)):
     contents = await file.read()
     prediction = predict_image(contents)
-    return prediction  # Return flat JSON like { "score": 0.98, "label": "Dog" }
+    return prediction  # Example: { "label": "Cat", "score": 0.95 }
