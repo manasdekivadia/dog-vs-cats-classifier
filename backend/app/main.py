@@ -12,7 +12,6 @@ app.add_middleware(
     allow_origins=[
     "http://localhost:3000",  # for local dev
     "https://dog-vs-cats-classifier.vercel.app/"],
-    allow_origins=["http://localhost:3000"],  # Adjust for production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
