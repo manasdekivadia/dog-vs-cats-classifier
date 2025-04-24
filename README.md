@@ -7,16 +7,16 @@ A sleek web application that classifies images as either a **dog** or a **cat** 
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🧠 CNN-based deep learning model
-- 🖼️ Upload any image and get an instant prediction
-- 🌙 Dark mode UI with modern glassmorphism design
-- ⚡ Deployed using **FastAPI (Render)** for backend and **React (Vercel)** for frontend
+- CNN-based deep learning model
+- Upload any image and get an instant prediction
+- Dark mode UI with modern glassmorphism design
+- Deployed using **FastAPI (Render)** for backend and **React (Vercel)** for frontend
 
 ---
 
-## 🧠 Model Overview
+##  Model Overview
 
 The model was trained using a custom Convolutional Neural Network (CNN) built with TensorFlow/Keras. It includes:
 
@@ -24,11 +24,11 @@ The model was trained using a custom Convolutional Neural Network (CNN) built wi
 - Trained on labeled **Cat** and **Dog** images
 - Achieved high validation accuracy and minimal loss after training
 
-📂 **Model Training File**: [`convolutional_neural_network.ipynb`](./convolutional_neural_network.ipynb)
+ **Model Training File**: [`convolutional_neural_network.ipynb`](./convolutional_neural_network.ipynb)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: React.js, Tailwind CSS, Vercel
 - **Backend**: FastAPI, Python, Render
@@ -37,7 +37,7 @@ The model was trained using a custom Convolutional Neural Network (CNN) built wi
 
 ---
 
-## 🧪 How to Run Locally
+##  How to Run Locally
 
 ### 1. Clone the Repository
 
@@ -79,20 +79,20 @@ Place the `model.pkl` file in the appropriate backend directory as expected by y
 
 ---
 
-## 🌐 Deployment
+##  Deployment
 
-### 🔹 Frontend: [Vercel](https://vercel.com)
+###  Frontend: [Vercel](https://vercel.com)
 - Pushed React frontend to GitHub
 - Connected GitHub repo to Vercel
 - Vercel auto-deploys on every push
 
-### 🔹 Backend: [Render](https://render.com)
+###  Backend: [Render](https://render.com)
 - Deployed FastAPI backend with necessary build/start commands
 - Connected with React frontend using the deployed API URL
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 dog-vs-cat-classifier/
@@ -110,23 +110,15 @@ dog-vs-cat-classifier/
 
 ---
 
-## ✨ UI Highlights
+##  UI Highlights
 
-- 🟣 **Glassmorphism design**
-- 🔁 **Hover interactions**
-- 📱 **Responsive on all devices**
-
----
-
-## 🙌 Credits
-
-- Model trained using **TensorFlow/Keras**
-- UI powered by **React.js** and **Tailwind CSS**
-- Hosting by **Render** & **Vercel**
+- **Glassmorphism design**
+- **Hover interactions**
+- **Responsive on all devices**
 
 ---
 
-## 📜 License
+##  License
 
 MIT License - use freely for learning or building upon it!
 
